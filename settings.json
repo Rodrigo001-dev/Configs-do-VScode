@@ -1,6 +1,6 @@
 {
 	"terminal.integrated.fontSize": 16,
-	
+
 	"workbench.colorTheme": "Rodrigo Soft",
 
 	"workbench.iconTheme": "material-icon-theme",
@@ -33,11 +33,12 @@
   "editor.parameterHints.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  
+
   "editor.rulers": [80, 120],
-  
+
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    // "source.organizeImports": true
   },
 
   "files.associations": {
@@ -51,7 +52,7 @@
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
-  
+
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
@@ -76,6 +77,9 @@
     "repositories": "mappings",
     "http": "container",
     "migrations": "tools",
+    "useCases" : "functions",
+    "usecases" : "functions",
+    "domain" : "class",
     "modules": "components",
     "implementations": "core",
     "dtos": "typescript",
@@ -110,4 +114,20 @@
   ],
   "elixirLS.dialyzerEnabled": false,
   "elixirLS.suggestSpecs": false,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": true,
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  "react-native-tools.showUserTips": false,
 }
