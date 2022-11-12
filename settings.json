@@ -47,8 +47,6 @@
     ".prettierrc": "json"
   },
 
-  "window.zoomLevel": 0,
-
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
@@ -64,10 +62,14 @@
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
   "liveServer.settings.donotShowInfoMsg": true,
-  // "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.activeIconPack": "nest",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
   "screencastMode.onlyKeyboardShortcuts": true,
 
-  "material-icon-theme.activeIconPack": "react_redux",
+  // "material-icon-theme.activeIconPack": "react_redux",
 
   "material-icon-theme.folders.associations": {
     "infra": "app",
@@ -114,7 +116,6 @@
   ],
   "elixirLS.dialyzerEnabled": false,
   "elixirLS.suggestSpecs": false,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
   "workbench.productIconTheme": "fluent-icons",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -123,11 +124,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "redhat.telemetry.enabled": true,
-  "bracket-pair-colorizer-2.activeScopeCSS": [
-    "borderStyle : solid",
-    "borderWidth : 1px",
-    "borderColor : {color}",
-    "opacity: 0.5"
-  ],
   "react-native-tools.showUserTips": false,
 }
