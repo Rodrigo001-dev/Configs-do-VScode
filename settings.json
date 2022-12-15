@@ -78,6 +78,7 @@
     "schemas": "class",
     "typeorm": "database",
     "repositories": "mappings",
+    "factories": "class",
     "mappers": "meta",
     "http": "container",
     "migrations": "tools",
