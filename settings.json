@@ -73,13 +73,16 @@
 
   "material-icon-theme.folders.associations": {
     "infra": "app",
+    "view-models": "views",
     "entities": "class",
     "schemas": "class",
     "typeorm": "database",
     "repositories": "mappings",
+    "mappers": "meta",
     "http": "container",
     "migrations": "tools",
     "useCases" : "functions",
+    "use-cases" : "functions",
     "usecases" : "functions",
     "domain" : "class",
     "modules": "components",
