@@ -75,6 +75,7 @@
     "infra": "app",
     "view-models": "views",
     "entities": "class",
+    "kafka": "pipe",
     "schemas": "class",
     "typeorm": "database",
     "repositories": "mappings",
