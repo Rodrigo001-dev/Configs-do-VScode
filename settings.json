@@ -1,19 +1,19 @@
 {
-	"terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
 
-	"workbench.colorTheme": "Rodrigo Soft",
+  "workbench.colorTheme": "Rodrigo Soft",
 
-	"workbench.iconTheme": "material-icon-theme",
-	"workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
 
-	"editor.tabSize": 2,
-	"editor.fontSize": 18,
-	"editor.lineHeight": 26,
-	"editor.fontFamily": "JetBrains Mono",
-	"editor.fontLigatures": true,
-	"editor.fontWeight": "500", // Medium
+  "editor.tabSize": 2,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 26,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500", // Medium
 
-	"files.exclude": {
+  "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
     "**/.hg": true,
@@ -37,7 +37,7 @@
   "editor.rulers": [80, 120],
 
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
+    "source.fixAll.eslint": true
     // "source.organizeImports": true
   },
 
@@ -85,10 +85,10 @@
     "mappers": "meta",
     "http": "container",
     "migrations": "tools",
-    "useCases" : "functions",
-    "use-cases" : "functions",
-    "usecases" : "functions",
-    "domain" : "class",
+    "useCases": "functions",
+    "use-cases": "functions",
+    "usecases": "functions",
+    "domain": "class",
     "modules": "components",
     "implementations": "core",
     "dtos": "typescript",
@@ -111,7 +111,6 @@
   "tabnine.experimentalAutoImports": true,
   "workbench.statusBar.visible": true,
   "colorize.include": [
-
     "**/*.css",
     "**/*.scss",
     "**/*.sass",
@@ -135,4 +134,68 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+
+  "cSpell.language": "en,pt",
+  "cSpell.userWords": [
+    "chakra",
+    "clsx",
+    "donot",
+    "Dotenv",
+    "dtos",
+    "esbenp",
+    "fastify",
+    "Fastify",
+    "feedbackwidget",
+    "Hono",
+    "IUGU",
+    "jupiter",
+    "liveshare",
+    "middlewares",
+    "mixpanel",
+    "monaco",
+    "nestjs",
+    "Omni",
+    "Onboarded",
+    "ormconfig",
+    "pallas",
+    "prefetch",
+    "redhat",
+    "rocketseat",
+    "rotion",
+    "screencast",
+    "sequelizerc",
+    "styl",
+    "stylelintrc",
+    "tabnine",
+    "trpc",
+    "TRPC",
+    "typeorm",
+    "unfollow",
+    "Unfollow",
+    "unform",
+    "Unform",
+    "unmark",
+    "upsert",
+    "usecases",
+    "websockets"
+  ],
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ]
 }
