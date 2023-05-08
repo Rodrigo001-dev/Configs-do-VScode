@@ -1,8 +1,6 @@
 {
   "terminal.integrated.fontSize": 16,
 
-  "workbench.colorTheme": "Rodrigo Soft",
-
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
 
@@ -75,9 +73,12 @@
 
   "material-icon-theme.folders.associations": {
     "infra": "app",
+    "adapters": "contract",
+    "kube": "kubernetes",
     "view-models": "views",
     "entities": "class",
     "kafka": "pipe",
+    "main": "lib",
     "schemas": "class",
     "typeorm": "database",
     "repositories": "mappings",
@@ -97,7 +98,8 @@
     "protos": "pipe",
     "grpc": "pipe",
     "components": "components",
-    "contexts": "redux-actions"
+    "contexts": "redux-actions",
+    "renderer": "client"
   },
 
   "material-icon-theme.files.associations": {
@@ -126,47 +128,74 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  // "[typescriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
   "redhat.telemetry.enabled": true,
   "react-native-tools.showUserTips": false,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  // "[typescript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
 
   "cSpell.language": "en,pt",
   "cSpell.userWords": [
+    "apagar",
+    "brazilian",
+    "Cancelar",
+    "certeza",
     "chakra",
     "clsx",
+    "codegen",
+    "Contexto",
+    "dayjs",
+    "deseja",
+    "dispositivo",
     "donot",
     "Dotenv",
     "dtos",
+    "errado",
     "esbenp",
+    "facebook",
     "fastify",
     "Fastify",
     "feedbackwidget",
+    "figma",
+    "flatlist",
+    "github",
     "Hono",
+    "iphone",
     "IUGU",
     "jupiter",
     "liveshare",
+    "meuiot",
     "middlewares",
     "mixpanel",
     "monaco",
+    "nativewind",
     "nestjs",
+    "nextjs",
+    "novamente",
     "Omni",
     "Onboarded",
     "ormconfig",
     "pallas",
+    "postgres",
     "prefetch",
+    "prismic",
     "redhat",
+    "Relé",
     "rocketseat",
     "rotion",
     "screencast",
     "sequelizerc",
     "styl",
     "stylelintrc",
+    "supabase",
     "tabnine",
+    "tailwindcss",
+    "tente",
+    "Tipo",
+    "toastify",
     "trpc",
     "TRPC",
     "typeorm",
@@ -174,9 +203,11 @@
     "Unfollow",
     "unform",
     "Unform",
+    "unixepoch",
     "unmark",
     "upsert",
     "usecases",
+    "Você",
     "websockets"
   ],
   "cSpell.enableFiletypes": [
@@ -197,5 +228,7 @@
     "!rust",
     "!scala",
     "!scss"
-  ]
+  ],
+  "workbench.colorTheme": "Cyberpunk 2077 rebuild",
+  "terminal.integrated.env.linux": {}
 }
