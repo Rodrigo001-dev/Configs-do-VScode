@@ -1,0 +1,235 @@
+{
+  "terminal.integrated.fontSize": 16,
+
+  "workbench.iconTheme": "symbols",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400", // Medium
+
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true
+  },
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "editor.rulers": [80, 120],
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+    // "source.organizeImports": true
+  },
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
+  },
+
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "editor.formatOnSave": true,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+
+  "git.enableSmartCommit": true,
+  "liveshare.featureSet": "insiders",
+
+  "typescript.tsserver.log": "verbose",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+
+  // "material-icon-theme.activeIconPack": "react_redux",
+
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "adapters": "contract",
+    "kube": "kubernetes",
+    "view-models": "views",
+    "entities": "class",
+    "kafka": "pipe",
+    "main": "lib",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "factories": "class",
+    "mappers": "meta",
+    "http": "container",
+    "migrations": "tools",
+    "useCases": "functions",
+    "use-cases": "functions",
+    "usecases": "functions",
+    "domain": "class",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "components": "components",
+    "contexts": "redux-actions",
+    "renderer": "client"
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "ormconfig.js": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d"
+  },
+
+  "tabnine.experimentalAutoImports": true,
+  "workbench.statusBar.visible": true,
+  "colorize.include": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "**/*.styl",
+    "**/*.js",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "elixirLS.dialyzerEnabled": false,
+  "elixirLS.suggestSpecs": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // "[typescriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "redhat.telemetry.enabled": true,
+  "react-native-tools.showUserTips": false,
+  // "[typescript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+
+  "cSpell.language": "en,pt",
+  "cSpell.userWords": [
+    "apagar",
+    "brazilian",
+    "Cancelar",
+    "certeza",
+    "chakra",
+    "clsx",
+    "codegen",
+    "Contexto",
+    "dayjs",
+    "deseja",
+    "dispositivo",
+    "donot",
+    "Dotenv",
+    "dtos",
+    "errado",
+    "esbenp",
+    "facebook",
+    "fastify",
+    "Fastify",
+    "feedbackwidget",
+    "figma",
+    "flatlist",
+    "github",
+    "Hono",
+    "iphone",
+    "IUGU",
+    "jupiter",
+    "liveshare",
+    "meuiot",
+    "middlewares",
+    "mixpanel",
+    "monaco",
+    "nativewind",
+    "nestjs",
+    "nextjs",
+    "novamente",
+    "Omni",
+    "Onboarded",
+    "ormconfig",
+    "pallas",
+    "postgres",
+    "prefetch",
+    "prismic",
+    "redhat",
+    "Relé",
+    "rocketseat",
+    "rotion",
+    "screencast",
+    "sequelizerc",
+    "styl",
+    "stylelintrc",
+    "supabase",
+    "tabnine",
+    "tailwindcss",
+    "tente",
+    "Tipo",
+    "toastify",
+    "trpc",
+    "TRPC",
+    "typeorm",
+    "unfollow",
+    "Unfollow",
+    "unform",
+    "Unform",
+    "unixepoch",
+    "unmark",
+    "upsert",
+    "usecases",
+    "Você",
+    "websockets"
+  ],
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "workbench.colorTheme": "Omni",
+  "symbols.hidesExplorerArrows": false,
+  "material-icon-theme.folders.theme": "specific",
+  "terminal.integrated.env.osx": {},
+  "console-ninja.featureSet": "Community"
+}
