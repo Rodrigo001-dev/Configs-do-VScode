@@ -1,7 +1,7 @@
 {
   "terminal.integrated.fontSize": 16,
 
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "workbench.startupEditor": "newUntitledFile",
 
   "editor.tabSize": 2,
@@ -49,7 +49,7 @@
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
@@ -147,6 +147,7 @@
     "clsx",
     "codegen",
     "Contexto",
+    "customizar",
     "dayjs",
     "deseja",
     "dispositivo",
@@ -229,6 +230,16 @@
     "!scala",
     "!scss"
   ],
-  "workbench.colorTheme": "Cyberpunk 2077 rebuild",
-  "terminal.integrated.env.linux": {}
+  "workbench.colorTheme": "Min Dark",
+  "terminal.integrated.env.linux": {},
+  "symbols.hidesExplorerArrows": false,
+  "git.openRepositoryInParentFolders": "always",
+  "git.autofetch": true,
+  "console-ninja.featureSet": "Community",
+  "tailwindCSS.experimental.classRegex": [
+    ["tv\\((([^()]*|\\([^()]*\\))*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ]
 }
