@@ -35,8 +35,7 @@
   "editor.rulers": [80, 120],
 
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-    // "source.organizeImports": true
+    "source.fixAll.eslint": "explicit"
   },
 
   "files.associations": {
@@ -107,6 +106,21 @@
     "tsconfig.json": "tune",
     "*.proto": "3d"
   },
+
+  "symbols.folders.associations": {
+    "entities": "folder-assets",
+    "infra": "folder-app",
+    "schemas": "folder-purple"
+  },
+  "symbols.files.associations": {
+    "app.module.ts": "nest",
+    "*.service.ts": "nest",
+    "*.e2e-spec.ts": "ts-test"
+  },
+
+  "tailwindCSS.experimental.classRegex": [
+    ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
 
   "tabnine.experimentalAutoImports": true,
   "workbench.statusBar.visible": true,
@@ -227,7 +241,7 @@
     "!scala",
     "!scss"
   ],
-  "workbench.colorTheme": "Omni",
+  "workbench.colorTheme": "Shades of Purple (Super Dark)",
   "symbols.hidesExplorerArrows": false,
   "material-icon-theme.folders.theme": "specific",
   "terminal.integrated.env.osx": {},
