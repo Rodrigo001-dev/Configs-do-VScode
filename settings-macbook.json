@@ -60,6 +60,7 @@
   "typescript.tsserver.log": "verbose",
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "material-icon-theme.activeIconPack": "nest",
   "[prisma]": {
@@ -193,6 +194,7 @@
     "pallas",
     "postgres",
     "prefetch",
+    "Pressable",
     "prismic",
     "redhat",
     "Relé",
@@ -241,9 +243,13 @@
     "!scala",
     "!scss"
   ],
-  "workbench.colorTheme": "Shades of Purple (Super Dark)",
+  "workbench.colorTheme": "Vesper ++",
   "symbols.hidesExplorerArrows": false,
   "material-icon-theme.folders.theme": "specific",
   "terminal.integrated.env.osx": {},
-  "console-ninja.featureSet": "Community"
+  "console-ninja.featureSet": "Community",
+  "gitlens.launchpad.ignoredRepositories": [
+    "diego3g/rsxp-2023"
+  ],
+  "prisma.showPrismaDataPlatformNotification": false
 }
