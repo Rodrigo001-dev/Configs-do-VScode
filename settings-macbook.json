@@ -1,16 +1,13 @@
 {
   "terminal.integrated.fontSize": 16,
-
   "workbench.iconTheme": "symbols",
   "workbench.startupEditor": "newUntitledFile",
-
   "editor.tabSize": 2,
   "editor.fontSize": 16,
   "editor.lineHeight": 24,
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
   "editor.fontLigatures": true,
-  "editor.fontWeight": "400", // Medium
-
+  "editor.fontWeight": "400",
   "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
@@ -18,45 +15,37 @@
     "**/.svn": true,
     "**/CVS": true
   },
-
   "explorer.compactFolders": false,
   "editor.renderLineHighlight": "gutter",
   "workbench.editor.labelFormat": "short",
   "extensions.ignoreRecommendations": true,
-
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "never",
-
-  "breadcrumbs.enabled": true,
+  "breadcrumbs.enabled": false,
   "editor.parameterHints.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-
   "editor.rulers": [80, 120],
-
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-
   "files.associations": {
     ".sequelizerc": "javascript",
     ".stylelintrc": "json",
     ".prettierrc": "json"
   },
-
-  "emmet.syntaxProfiles": { "javascript": "jsx" },
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
-
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   "editor.formatOnSave": true,
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
-
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
-
   "git.enableSmartCommit": true,
   "liveshare.featureSet": "insiders",
-
   "typescript.tsserver.log": "verbose",
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
@@ -67,9 +56,6 @@
     "editor.defaultFormatter": "Prisma.prisma",
     "editor.formatOnSave": true
   },
-
-  // "material-icon-theme.activeIconPack": "react_redux",
-
   "material-icon-theme.folders.associations": {
     "infra": "app",
     "adapters": "contract",
@@ -100,14 +86,12 @@
     "contexts": "redux-actions",
     "renderer": "client"
   },
-
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
     "ormconfig.js": "database",
     "tsconfig.json": "tune",
     "*.proto": "3d"
   },
-
   "symbols.folders.associations": {
     "entities": "folder-assets",
     "infra": "folder-app",
@@ -118,13 +102,54 @@
     "*.service.ts": "nest",
     "*.e2e-spec.ts": "ts-test"
   },
-
   "tailwindCSS.experimental.classRegex": [
     ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
   ],
-
   "tabnine.experimentalAutoImports": true,
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "hidden",
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 48,
+    "itemMargin": 8,
+    "itemSize": 32
+  },
+  "apc.electron": {
+    "titleBarStyle": "customButtonsOnHover",
+    "trafficLightPosition": {
+      "x": 11,
+      "y": 10
+    },
+    "opacity": 1,
+    "vibrancy": "dark",
+    "frame": false
+  },
+  "apc.header": {
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.font.family": "Inter",
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
   "colorize.include": [
     "**/*.css",
     "**/*.scss",
@@ -141,15 +166,8 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  // "[typescriptreact]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
   "redhat.telemetry.enabled": true,
   "react-native-tools.showUserTips": false,
-  // "[typescript]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-
   "cSpell.language": "en,pt",
   "cSpell.userWords": [
     "apagar",
@@ -248,8 +266,6 @@
   "material-icon-theme.folders.theme": "specific",
   "terminal.integrated.env.osx": {},
   "console-ninja.featureSet": "Community",
-  "gitlens.launchpad.ignoredRepositories": [
-    "diego3g/rsxp-2023"
-  ],
+  "gitlens.launchpad.ignoredRepositories": ["diego3g/rsxp-2023"],
   "prisma.showPrismaDataPlatformNotification": false
 }
